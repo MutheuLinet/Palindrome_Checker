@@ -8,7 +8,7 @@ public class App {
         String inputtedName = scanner.nextLine();   //collect user input
 
         Palindrome palindrome = new Palindrome();
-        System.out.println(palindrome.isPalindrome(inputtedName)); // check if collected string is a palindrome
+        System.out.println(palindrome.isPalindrome(inputtedName)); // true or false check if collected string is a palindrome
 
     }
 }
